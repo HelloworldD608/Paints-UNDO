@@ -126,6 +126,16 @@ and much more ...
 
 &ast; *this is already possible - if you use PaintsUndo to Undo 500 steps, and want to Redo 100 steps with different possibilities, you can use ControlNet to finish it (so that it becomes step 0) and then undo 400 steps. More integrated solution is still under experiments.*
 
+## Snake Game
+
+This repository now also includes a lightweight Snake game implemented with Tkinter for quick breaks or demonstrations. To play, run:
+
+```
+python snake_game.py
+```
+
+Use the arrow keys or WASD to steer the snake, and press the space bar to restart after a game over.
+
 # Disclaimer
 
 This project aims to develop base models of human drawing behaviors, facilitating future AI systems to better meet the real needs of human artists. Users are granted the freedom to create content using this tool, but they are expected to comply with local laws and use it responsibly. Users must not employ the tool to generate false information or incite confrontation. The developers do not assume any responsibility for potential misuse by users.
